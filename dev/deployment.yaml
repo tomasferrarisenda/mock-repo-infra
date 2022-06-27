@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: myapp-deployment
+  name: demo-app-deployment
 spec:
   selector:
     matchLabels:
-      app: myapp
+      app: demo-app
   replicas: 2
   template: 
     metadata:
       labels: 
-        app: myapp
+        app: demo-app
     spec: 
       containers:
-      - name: myapp
-        image: tferrari92/demo-app:12
+      - name: demo-app
+        image: tferrari92/demo-app:28
         ports:
         - containerPort: 8080 
