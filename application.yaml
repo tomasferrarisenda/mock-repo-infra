@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/tomasferrarisenda/mock-repo-infra.git
-    path: argo
+    path: dev
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
