@@ -14,6 +14,6 @@ spec:
     spec: 
       containers:
       - name: demo-app
-        image: tferrari92/demo-app:31
+        image: tferrari92/demo-app:32
         ports:
         - containerPort: 8080 
